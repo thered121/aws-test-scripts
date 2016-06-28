@@ -1,0 +1,74 @@
+{
+    "DryRun": true, 
+    "ImageId": "ami-9abea4fb", 
+    "MinCount": 0, 
+    "MaxCount": 1, 
+    "KeyName": "AWS-Test-KP", 
+    "SecurityGroups": [
+        "test-security-group"
+    ], 
+    "SecurityGroupIds": [
+        "sg-e3c24885"
+    ], 
+    "UserData": "", 
+    "InstanceType": "t2.micro", 
+    "Placement": {
+        "AvailabilityZone": "", 
+        "GroupName": "", 
+        "Tenancy": "", 
+        "HostId": "", 
+        "Affinity": ""
+    }, 
+    "KernelId": "", 
+    "RamdiskId": "", 
+    "BlockDeviceMappings": [
+        {
+            "VirtualName": "", 
+            "DeviceName": "", 
+            "Ebs": {
+                "SnapshotId": "", 
+                "VolumeSize": 0, 
+                "DeleteOnTermination": true, 
+                "VolumeType": "", 
+                "Iops": 0, 
+                "Encrypted": true
+            }, 
+            "NoDevice": ""
+        }
+    ], 
+    "Monitoring": {
+        "Enabled": true
+    }, 
+    "SubnetId": "", 
+    "DisableApiTermination": true, 
+    "InstanceInitiatedShutdownBehavior": "", 
+    "PrivateIpAddress": "", 
+    "ClientToken": "", 
+    "AdditionalInfo": "", 
+    "NetworkInterfaces": [
+        {
+            "NetworkInterfaceId": "", 
+            "DeviceIndex": 0, 
+            "SubnetId": "", 
+            "Description": "", 
+            "PrivateIpAddress": "", 
+            "Groups": [
+                ""
+            ], 
+            "DeleteOnTermination": true, 
+            "PrivateIpAddresses": [
+                {
+                    "PrivateIpAddress": "", 
+                    "Primary": true
+                }
+            ], 
+            "SecondaryPrivateIpAddressCount": 0, 
+            "AssociatePublicIpAddress": true
+        }
+    ], 
+    "IamInstanceProfile": {
+        "Arn": "", 
+        "Name": ""
+    }, 
+    "EbsOptimized": true
+}
