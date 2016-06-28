@@ -1,2 +1,3 @@
 # Misc folders
- .[Vv]scode/
+ .vscode/
+ .vscode/settings.json
